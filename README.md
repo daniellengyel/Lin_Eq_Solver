@@ -14,4 +14,10 @@ Sample Input:
  Sample output:
   [49, 298, 347]
   where 49/347 is probability of reaching first terminal state before the second one
-  and 298/347 is probability of reaching second terminal state before first
+  and 298/347 is probability of reaching second terminal state before first.
+
+Note: Call compute to solver the problem.
+
+# Improvements
+• Functions could be a bit better documented and better explained.
+• Add more functionality than just solving probability of terminal state. Could modify code to calculate hittings times or find general probability of reaching any state before another state. A lot could be explored.
