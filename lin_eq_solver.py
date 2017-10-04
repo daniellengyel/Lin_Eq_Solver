@@ -74,9 +74,8 @@ def lcm_of_array(a, should_negate=True):
     result.append(lcm)
     return result
 
-def answer(m):
-#     if len(m) == 1:
-#         return [1, 1]
+def compute(m):
+"""m is the matrix for which to find the probabilities. As specified in the summary"""
     work_with = convert_to_tuples(m)
     answers = []
     for i in range(0, len(m)):
